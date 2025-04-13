@@ -7,6 +7,7 @@ This is a group project for Lab 1 that demonstrates Git and GitHub collaboration
 - [اسيل المحمدي]
 - [شموخ] 
 - [شيخة الشدوخي]
+- [الاء]
 ## Features
 - Add new tasks
 - Delete tasks
