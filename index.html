@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>مرحبا بك في مكتبة الكتب</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(to bottom, #47C6E2, #a1e3f0);
+      text-align: center;
+      padding: 50px;
+      color: white;
+      overflow-x: hidden;
+    }
+
+    h1, p, .center-image, a {
+      opacity: 0;
+      transform: translateY(20px);
+      animation: fadeInUp 1s ease forwards;
+    }
+
+    h1 {
+      font-size: 40px;
+      margin-bottom: 20px;
+      animation-delay: 0.2s;
+    }
+
+    p {
+      font-size: 20px;
+      margin-bottom: 30px;
+      animation-delay: 0.4s;
+    }
+
+    .center-image {
+      display: flex;
+      justify-content: center;
+      margin: 30px 0;
+      animation-delay: 0.6s;
+    }
+
+    .center-image img {
+      max-width: 300px;
+      border-radius: 15px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+    }
+
+    a {
+      display: inline-block;
+      padding: 15px 30px;
+      background-color: #354f7c;
+      color: white;
+      text-decoration: none;
+      font-size: 18px;
+      border-radius: 12px;
+      transition: background-color 0.3s ease;
+      animation-delay: 0.8s;
+    }
+
+    a:hover {
+      background-color: #273a5c;
+    }
+
+    @keyframes fadeInUp {
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+  </style>
+</head>
+<body dir="rtl">
+  <h1>مرحبًا بك في مكتبة الكتب</h1>
+  <p>اكتشف مجموعة من الكتب الرائعة للقراءة والتعلّم.</p>
+
+  <div class="center-image">
+    <img src="https://cdn-icons-png.flaticon.com/512/3135/3135768.png" alt="صورة كتب" />
+  </div>
+
+  <a href="library.html">استعرض المكتبة</a>
+</body>
+</html>
+
+
+
